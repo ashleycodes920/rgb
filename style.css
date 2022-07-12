@@ -1,10 +1,9 @@
 body {
-  /* background-color: #cbbde3; */
   margin: 0;
   font-family: sans-serif;
   font-weight: normal;
   text-transform: uppercase;
-  background-image: url("../../images/overlay.png"), linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../../images/bg003.png");
+  background-image: url("../../images/overlay.png"), linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../../images/plant-bg01.png");
   background-size: auto, auto, 100% auto;
   background-position: center, center, center;
   background-repeat: repeat, no-repeat,no-repeat;
@@ -25,28 +24,27 @@ body {
 }
 
 #container {
-  margin: 20px auto;
-  max-width: 600px;
+  margin: 2rem auto;
+  max-width: 45rem;
 }
 
 h1 {
-  color: rgb(255, 255, 255);
+  color: rgb(65, 65, 65);
   line-height: 1.5;
   text-align: center;
-  /* background-color: rgb(254, 113, 197); */
-  background-image: url("../../images/overlay.png"), linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../../images/bg005.png");
+  background-image: url("../../images/overlay.png"), linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../../images/pinkh11.png");
 			background-size: auto,								auto,														100% auto;
 			background-position: center,								center,														 top center;
 			background-repeat: repeat,								no-repeat,													no-repeat;
 			background-attachment: scroll,								scroll,														scroll;
 			z-index: -1;
   margin: 0;
-  padding: 20px 0;
+  padding: 5rem 0;
 }
 
 #stripe {
-  background: white;
-  height: 30px;
+  background: rgb(218, 215, 215);
+  height: 3rem;
   text-align: center;
   color: black;
 }
@@ -57,7 +55,7 @@ h1 {
 }
 
 #rgbCode {
-  font-size: 200%;
+  font-size: 250%;
 }
 
 button {
@@ -69,7 +67,8 @@ button {
   font-weight: 700;
   color: steelblue;
   letter-spacing: 1px;
-  font-size: inherit;
+  /* font-size: inherit; */
+  font-size: 16pt;
   transition: all 0.5s;
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
